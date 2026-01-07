@@ -1,0 +1,9 @@
+
+fastapi
+uvicorn
+textblob
+ml-service ke andar - uvicorn app:app --reload --port 8001
+backend ke andar - node server.js
+client ke andar - npm run dev
+login id sahil.2022@gmail.com
+pass @Sahil2709

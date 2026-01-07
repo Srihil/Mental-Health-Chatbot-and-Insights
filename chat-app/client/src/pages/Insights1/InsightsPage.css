@@ -1,0 +1,44 @@
+/* InsightsPage.css */
+
+.insights-grid {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .insights-grid {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto auto auto !important;
+    gap: 16px !important;
+  }
+
+  .insights-grid > div {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .responsive-header h1 {
+    font-size: 1.8rem !important;
+  }
+
+  .responsive-header p {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-header h1 {
+    font-size: 1.5rem !important;
+  }
+
+  .responsive-header p {
+    font-size: 0.95rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-content-md {
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+}
